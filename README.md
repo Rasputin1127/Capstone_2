@@ -1,13 +1,13 @@
 # Capstone_2
 
-## Proposal 1
-
-Because of my interest in healthcare, and due to the recent surging of COVID cases nationwide, I think it would be interesting and relevant to use current COVID data coupled with metadata from States and Counties to try to create a model that can predict surges in COVID. I believe using Random Forest or some kind of Ensemble method would produce good results. The Data Set is on Kaggle at https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university and contains global data as well (which I may use for some introductory graphing purposes), but gets fine-grained with US COVID data.
-
-## Proposal 2
+## Proposal
 
 This dataset contains images of normal and pneumonia-riddled lungs (approx. 6000 images) and the goal would be to manipulate the images into a classifier that could predict with some degree of accuracy whether or not a person has pneumonia just by seeing an x-ray of their lungs. My concern is that the dataset is a bit too small, but since each image contains a lot of data perhaps 6000 images is a sufficient number. That data can be found here: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-## Proposal 3
+I chose X-ray image classification for a few reasons. I have a background in bioethics from my Philosophy studies, so I wanted to do something that had a medical bend, but on a more personal level I am interested in the possibility of computer vision enhancing accuracy of medical diagnoses. My dad had open-heart surgery a few years ago, and he only received this operation because he finally sought a second-opinion on some medical imaging of his chest that revealed a critical feature that his regular heart doctor had missed. Computer vision possibly provides a second-set of eyes for relatively low-cost (once in production phase) in diagnosing conditions in patients.
 
-Another possible dataset for me to use is a collection of data about women in several states in India. The data indicate many different factors (access to amenities, family planning strategies, relationship info, to name a few), and the goal is to predict the outcome of the woman's pregnancy (whether live birth, still birth, or aborted). I think with all of the information provided in this data set it would be challenging to narrow down the features to only those which are actually important in the determination of the prediction, which would then give possible insight into why some women may or may not choose abortion in India. The dataset is located here: https://www.kaggle.com/rajanand/ahs-woman-1
+This dataset isn't looking at heart conditions, but I figured it would teach me a lot of similar techniques that could be employed in this area of research.
+
+The notebook contains my exploration of the data and model-running, but for presentation purposes the pdf of slides gives a prettier look at my findings.
+
+Enjoy!
