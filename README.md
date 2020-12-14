@@ -1,4 +1,4 @@
-# Capstone_2
+# Predicting Pneumonia
 
 ## Proposal
 
